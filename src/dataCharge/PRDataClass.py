@@ -136,7 +136,8 @@ class DataSet:
         print('保存了所有commits数据')
 
 
-data = DataSet('twbs/bootstrap', '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')
-data.getJsonFileCounts('../../resource/vue/pullRequest/mergedAndNotOne.json')
+data = DataSet('vuejs/vue', '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')
+data.getProjectPRCounts()
+# data.getJsonFileCounts('../../resource/vue/pullRequest/merged.json')
 # data.getMergedPR('../../resource/vue/pullRequest/all.json','../../resource/vue/pullRequest/merged.json')
 # data.getCommitData('../../resource/vue/pullRequest/mergedAndNotOne.json', '../../resource/vue/pullRequest/commit.json')

@@ -16,3 +16,8 @@ src/dataCharge/getUsefulData.py
 src/dataCharge/getProjectPull.py
 .idea/pythonProject1.iml
 *.txt
+/src/study/
+/resource/
+/entity/
+/pictures/
+/src/Graph/before/
